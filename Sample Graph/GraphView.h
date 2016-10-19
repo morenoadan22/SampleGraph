@@ -11,9 +11,5 @@
 @interface GraphView : UIView
 
 @property(strong, nonatomic) NSMutableArray *graphPoints;
-@property(nonatomic) float duration;
-
-- (id)initWithGraphPoints:(NSArray*)array WithFrame:(CGRect)frame;
-- (void)doGraph;
 
 @end
